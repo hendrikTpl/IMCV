@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
 > ## Overview
-> *A comprehensive collection of fundamental Signal Processing, Image Processing, and Computer Vision (IMCV) algorithms implemented from scratch. This repository serves as a portfolio piece and a hands-on educational resource for understanding the core mechanics behind these powerful techniques without relying on high-level library (wherever applicable).*
+> *A collection of fundamental Signal Processing, Image Processing, and Computer Vision (IMCV) algorithms implemented from scratch. This repository serves as a portfolio piece and a hands-on educational resource for understanding the core mechanics behind these powerful techniques without relying on high-level library (wherever applicable).*
 
 
 
@@ -23,68 +23,46 @@
 
 ---
 
-## 📁 Repository Structure
-
-```bash
-IMCV/
-├── signal_processing/
-│   ├── fft.py
-│   ├── filtering.py
-│   └── ...
-├── image_processing/
-│   ├── histogram_equalization.py
-│   ├── convolution.py
-│   └── ...
-├── computer_vision/
-│   ├── edge_detection.py
-│   ├── object_tracking.py
-│   └── ...
-├── data/
-│   └── sample_images_and_signals/
-├── utils/
-│   └── visualization_tools.py
-├── README.md
-└── LICENSE
-```
 
 ## ✅ Implemented Algorithms Roadmap
 
 ## 📶 Signal Processing
-
-### 🔄 Convolution
-- [ ] 1D Convolution
-
-### 🔁 Fourier Analysis
+### Spatial Frequency Domain
+- [] Spatial Frequency
+### Fourier Analysis
 - [ ] Discrete Fourier Transform (DFT)
 - [ ] Fast Fourier Transform (FFT)
 
-### 🧹 Filtering
+### Filtering
 - [ ] Low-Pass Filters (e.g., Moving Average)
 - [ ] High-Pass Filters
+
+### Convolution
+- [ ] 1D Convolution
 
 ---
 
 ## 🖼️ Image Processing
 
-### 🧮 Core Operations
+### Core Operations
 - [ ] Grayscale Conversion
 - [ ] Brightness & Contrast Adjustment
 
-### 🧰 Image Filtering & Enhancement
+### Image Filtering & Enhancement
 - [ ] Gaussian Blur
 - [ ] Sharpening Kernels
 - [ ] Median Filter
 
-### 🧠 Edge Detection
+### Edge Detection
 - [ ] Sobel Operator
 - [ ] Prewitt Operator
 - [ ] Canny Edge Detector
 
-### 📊 Histogram Manipulation
+### Histogram Manipulation
 - [ ] Histogram Generation
 - [ ] Histogram Equalization
 
-### ✂️ Geometric Transformations
+### Geometric Transformations
 - [ ] Image Resizing (Nearest Neighbor, Bilinear Interpolation)
 - [ ] Rotation
 - [ ] Cropping
@@ -93,13 +71,13 @@ IMCV/
 
 ## 👁️ Computer Vision
 
-### 📌 Feature Detection & Description
+### Feature Detection & Description
 - [ ] Harris Corner Detection
 - [ ] (Conceptual) Scale-Invariant Feature Transform (SIFT)
 
-### 🧩 Image Segmentation
+### Image Segmentation
 - [ ] Binary Thresholding (Otsu's Method)
 - [ ] K-Means Color Clustering
 
-### 🧠 Object Recognition
+### Object Recognition
 - [ ] Template Matching
